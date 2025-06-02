@@ -19,5 +19,17 @@ int main() {
         i++;
     } while (i <= 8);
 
+    printf("\nMovimento do Cavalo (2 Baixo, 1 Esquerda):\n");
+
+    for (int passo = 0; passo < 2; passo++) {
+        printf("Baixo\n");
+
+        int auxiliar = 0;
+        while (auxiliar < 1 && passo == 1) { 
+            printf("Esquerda\n");
+            auxiliar++;
+        }
+    }
+
     return 0;
 }
